@@ -5,6 +5,7 @@ module.exports = {
         "[**/*.js]",
         "**/*.html!text",
         "**/*.css!text",
+        "css",
         "[aurelia-kendoui-bridge]",
         "[aurelia-kendoui-bridge/**/*.js]",
         "aurelia-kendoui-bridge/**/*.html!text",
@@ -22,16 +23,16 @@ module.exports = {
           "kendo-ui/styles/kendo.bootstrap.min.css!text"
       ],
       "excludes": [
-        "kendo-ui/js/angular.min.js",
-        "kendo-ui/js/jquery.min.js",
-        "kendo-ui/js/kendo.angular.min.js",
-        "kendo-ui/js/kendo.angular2.min.js",
-        "kendo-ui/js/kendo.spreadsheet.min.js",
-        "kendo-ui/js/kendo.all.min.js",
-        "kendo-ui/js/kendo.web.min.js",
-        "kendo-ui/js/kendo.dataviz.min.js",
-        "kendo-ui/js/kendo.dataviz.mobile.min.js",
-        "kendo-ui/js/kendo.mobile.min.js"
+        "[kendo-ui/js/angular.min.js]",
+        "[kendo-ui/js/jquery.min.js]",
+        "[kendo-ui/js/kendo.angular.min.js]",
+        "[kendo-ui/js/kendo.angular2.min.js]",
+        "[kendo-ui/js/kendo.spreadsheet.min.js]",
+        "[kendo-ui/js/kendo.all.min.js]",
+        "[kendo-ui/js/kendo.web.min.js]",
+        "[kendo-ui/js/kendo.dataviz.min.js]",
+        "[kendo-ui/js/kendo.dataviz.mobile.min.js]",
+        "[kendo-ui/js/kendo.mobile.min.js]"
       ],
       "options": {
           "inject": true,
